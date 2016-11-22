@@ -1,0 +1,1 @@
+This code reproduces an interesting issue I found in the Java List implementations for ArrayList & LinkedList that allows you to remove an element from a list over which you're currently iterating, bypassing the ConcurrentModificationException.
